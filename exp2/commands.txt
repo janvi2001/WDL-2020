@@ -1,0 +1,132 @@
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL
+$ git clone https://github.com/janvi2001/WDL-2020.git
+Cloning into 'WDL-2020'...
+remote: Enumerating objects: 39, done.
+remote: Counting objects: 100% (39/39), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 39 (delta 5), reused 34 (delta 3), pack-reused 0
+Unpacking objects: 100% (39/39), 1.33 MiB | 332.00 KiB/s, done.
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL
+$ cd WDL-2020
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020 (master)
+$ git checkout
+Your branch is up to date with 'origin/master'.
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020 (master)
+$ git checkout Shifa
+Switched to a new branch 'Shifa'
+Branch 'Shifa' set up to track remote branch 'Shifa' from 'origin'.
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020 (Shifa)
+$ mkdir exp2
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020 (Shifa)
+$ git status
+On branch Shifa
+Your branch is up to date with 'origin/Shifa'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        exp2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020 (Shifa)
+$ ls
+exp2/  README.md
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020 (Shifa)
+$ cd exp2
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DELL@DESKTOP-9V09JFS.(none)')
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$   git config --global user.email "you@example.com"
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$   git config --global user.email "cloudlikemind@gmail.com"
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$   git config --global user.name "Shifa Shahnawaz"
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$ git commit -m "first commit"
+On branch Shifa
+Your branch is up to date with 'origin/Shifa'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$ ls
+aboutus.html  admin.html  globalcorp.png
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$ git add .
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$ git commit -m "first commit"
+[Shifa ac43862] first commit
+ 3 files changed, 47 insertions(+)
+ create mode 100644 exp2/aboutus.html
+ create mode 100644 exp2/admin.html
+ create mode 100644 exp2/globalcorp.png
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$ git status
+On branch Shifa
+Your branch is ahead of 'origin/Shifa' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$ git push
+
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 38.08 KiB | 1.12 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/janvi2001/WDL-2020.git
+   95d48c2..ac43862  Shifa -> Shifa
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$ git status
+On branch Shifa
+Your branch is up to date with 'origin/Shifa'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-9V09JFS MINGW64 ~/Desktop/WDL/WDL-2020/exp2 (Shifa)
+$
