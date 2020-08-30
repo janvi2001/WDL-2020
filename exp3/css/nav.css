@@ -10,7 +10,16 @@ html,body {
 #container {
   position: relative;
   min-height: 100%;
-  margin-top: -150px;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  clear: both;
+}
+
+
+#container1 {
+  position: relative;
+  min-height: 30%;
+  margin-bottom: 40px;
   clear: both;
 }
 
