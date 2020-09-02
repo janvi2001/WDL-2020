@@ -7,13 +7,13 @@ $(function(){
             
         }
     });
-    $('#inputEmail').on('keypress keydown keyup',function(){
-        if(/[^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})]/.test(this.value)){
-            alert("Invalid email address");
-            this.value="";
-            $(this).focus();
-            
+   $('#inputEmail').on('keypress keydown keyup blur',function(){
+        if (!$(this).val().match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+         $('#echeck').removeAttr("hidden")
         }
+      else{
+           $('#echeck').attr("hidden","")
+          }
     });
     $('#inputnumber').on('keypress keydown keyup',function(){
         if(/[^0-9]/.test(this.value)){
