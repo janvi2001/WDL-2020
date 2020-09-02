@@ -1,6 +1,6 @@
 
 $(function(){
-    $('#inputmaterial').on('keypress',function(){
+    $('#inputmaterial').on('keypress keydown keyup',function(){
         if(/[^a-zA-Z ]/.test(this.value)){
             alert("Invalid Material.Alphabets and spaces only");
             this.value="";
@@ -16,7 +16,7 @@ $(function(){
             $(this).focus();
         }
     });
-    $('#inputunit').on('keypress',function(){
+    $('#inputunit').on('keypress keydown keyup',function(){
         if(/[^a-zA-Z ]/.test(this.value)){
             alert("Invalid UNIT.Alphabets and spaces only");
             this.value="";
@@ -24,10 +24,11 @@ $(function(){
             return false;
         }
     });
+    $('#btn').click(function(){
+        $('#inquiredone').removeAttr("hidden")
+    });
+
 });
-
-
-
 
 
 
