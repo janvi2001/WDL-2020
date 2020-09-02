@@ -7,7 +7,7 @@ $(function(){
             
         }
     });
-    $('inputEmail').on('keypress keydown keyup',function(){
+    $('#inputEmail').on('keypress keydown keyup',function(){
         if(/[^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})]/.test(this.value)){
             alert("Invalid email address");
             this.value="";
