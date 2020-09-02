@@ -7,6 +7,9 @@ Click to view the directory in the current Repository.
 - <a href="https://github.com/janvi2001/WDL-2020/tree/master/exp1">Experiment 1 - Installation and Setting of LAMP / WAMP / XAMP</a>
 - <a href="https://github.com/janvi2001/WDL-2020/tree/master/exp2">Experiment 2 - Create Simple web page using HTML5</a>
 - <a href="https://github.com/janvi2001/WDL-2020/tree/master/exp3">Experiment 3 - Design and Implement web page using CSS3 and HTML5</a>
+- <a href="https://github.com/janvi2001/WDL-2020/tree/master/exp4">Experiment 4 - Form Design and Client Side Validation using :
+a. Javascript and HTML5 
+b. Javascript and JQuery  </a>
 
 ## Detailed View:
 
@@ -38,6 +41,13 @@ To view individual pages click on the respective Link.
 - <a href="https://janvi2001.github.io/WDL-2020/exp3/contactus.html">Contact Us - Page</a> Contributor - <b>Misbah Shaikh</b>
 - <a href="https://janvi2001.github.io/WDL-2020/exp3/aboutus.html">About Us - Page</a> Contributor - <b>Shifa Chimaokar</b>
 - <a href="https://janvi2001.github.io/WDL-2020/exp3/admin.html">Admin - Page</a> Contributor - <b>Shifa Chimaokar</b>
+
+### > Experiment 4 :
+
+- <a href="https://janvi2001.github.io/WDL-2020/exp4/">Home - Page</a> Contributor - <b>Shifa Chimaokar</b>
+- <a href="https://janvi2001.github.io/WDL-2020/exp4/login.html">Login - Page</a> Contributor - <b>Misbah Shaikh</b>
+- <a href="https://janvi2001.github.io/WDL-2020/exp4/signup.html">Signup - Page</a> Contributor - <b>Janvi Karia</b>
+- <a href="https://janvi2001.github.io/WDL-2020/exp4/inquiry.html">Inquiry - Page</a> Contributor - <b>Salwa Tisekar</b>
 
 ## Note:
 
