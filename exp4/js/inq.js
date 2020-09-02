@@ -27,7 +27,23 @@ $(function(){
     $('#btn').click(function(){
         $('#inquiredone').removeAttr("hidden")
     });
-
+    
+    $('#inputusername').on('keypress keydown keyup',function(){
+        if(/[^a-zA-Z0-9 ]/.test(this.value)){
+            alert("Invalid Username. Please enter only characters and numbers");
+            this.value="";
+            $(this).focus();
+            return false;
+        }
+    });
+    $('#inputPassword').on('keypress keydown keyup',function(){
+        if(/[^a-zA-Z0-9 ]/.test(this.value)){
+            $('#check').removeAttr("hidden")
+        }
+        else{
+            $('#check').attr("hidden","")
+        }
+    });
 });
 
 
