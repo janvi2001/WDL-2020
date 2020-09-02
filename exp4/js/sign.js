@@ -7,7 +7,7 @@ $(function(){
             
         }
     });
-    $('inputEmail').on('blur',function(){
+    $('inputEmail').on('keypress keydown keyup',function(){
         if(/[^0-9A-Za-z.@_]/.test(this.value)){
             alert("Invalid email address");
             this.value="";
@@ -15,7 +15,7 @@ $(function(){
             
         }
     });
-    $('#inputnumber').on('blur',function(){
+    $('#inputnumber').on('keypress keydown keyup',function(){
         if(/[^0-9]/.test(this.value)){
             alert("Invalid Mobile no. Numbers only");
             this.value="";
@@ -23,14 +23,21 @@ $(function(){
         }
     });
     $('#inputusername').on('keypress keydown keyup',function(){
-        if(/[^a-zA-Z ]/.test(this.value)) {
-            alert("Invalid Username.Alphabets and spaces only");
+        if(/[^a-zA-Z0-9 ]/.test(this.value)){
+            alert("Invalid Username. Please enter only characters and numbers");
             this.value="";
             $(this).focus();
             
         }
     });
-    
+    $('#inputPassword').on('keypress keydown keyup',function(){
+        if(/[^a-zA-Z0-9 ]/.test(this.value)){
+            $('#check').removeAttr("hidden")
+        }
+        else{
+            $('#check').attr("hidden","")
+        }
+    });
 });
 
 
