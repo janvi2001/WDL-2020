@@ -45,7 +45,6 @@ To view individual pages click on the respective Link.
 ### > Experiment 4 :
 
 - <a href="https://janvi2001.github.io/WDL-2020/exp4/">Home - Page</a> Contributor - <b>Shifa Chimaokar</b>
-- <a href="https://janvi2001.github.io/WDL-2020/exp4/login.html">Login - Page</a> Contributor - <b>Janvi Karia</b>
 - <a href="https://janvi2001.github.io/WDL-2020/exp4/signup.html">Signup - Page</a> Contributor - <b>Janvi Karia</b>
 - <a href="https://janvi2001.github.io/WDL-2020/exp4/inquiry.html">Inquiry - Page</a> Contributor - <b>Salwa Tisekar</b>
 - <a href="https://janvi2001.github.io/WDL-2020/exp4/aboutus.html">About Us - Page</a> Contributor - <b>Misbah Shaikh</b>
